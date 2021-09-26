@@ -8,5 +8,5 @@ input.onButtonPressed(Button.A, function () {
     music.playMelody("G C5 - - - - - - ", 120)
 })
 let Secondi = 0
-Secondi = 5
+Secondi = 30
 basic.showNumber(Secondi)
