@@ -7,6 +7,10 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Yes)
     music.playMelody("G C5 - - - - - - ", 120)
 })
+input.onGesture(Gesture.Shake, function () {
+    Secondi = 30
+    basic.showNumber(Secondi)
+})
 let Secondi = 0
 Secondi = 30
 basic.showNumber(Secondi)
